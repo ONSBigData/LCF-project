@@ -124,8 +124,8 @@ server <- function(input, output,session) {
       values$clickrow <- isolate(values$solr_table[last,])
       updateTextInput(session, "Quantity", value = values$clickrow$quantity )
       updateTextInput(session, "Units"   , value = values$clickrow$units)
-      
-      updateTextInput(session, "EXPDESC"   , value = values$clickrow$cleandescr)
+     
+      #updateTextInput(session, "EXPDESC"   , value = values$clickrow$cleandescr)
       
       
     }
@@ -137,6 +137,12 @@ server <- function(input, output,session) {
   output$solrresult <-  renderDataTable    ({
     DT::datatable(values$solr_table, rownames = TRUE,  selection = 'single', 
                   filter = c("none"), options = list(dom = 't', pageLength = ROWMAX))
+    
+    
+ 
+    
+    
+    
   })
   
   output$querytable <- renderUI ({     
@@ -176,7 +182,7 @@ ui <- dashboardPage( dashboardHeader
                                                    background-color: #9c4242 !important;
 } "))),
                          box(title = "Instructions", width=12,status = "primary", solidHeader = FALSE,
-                             collapsible = FALSE,
+                             collapsible = TRUE,
                              verbatimTextOutput("instructions")
                          ),
                          box(title = "SOLR Query", width=12,status = "primary", solidHeader = TRUE, 
