@@ -19,7 +19,7 @@
     export PATH	
     and then run:  source .bashrc	
 	
-### 1.2  Install solr from apache mirror
+### 1.2  Install SOLR from apache mirror
 	
     cd ~	
     wget https://www.apache.org/dist/lucene/solr/6.3.0/solr-6.3.0.tgz	
