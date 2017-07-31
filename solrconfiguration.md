@@ -85,11 +85,10 @@ However there are plenty of types defined in the schema.xml file and they might 
 
 
 Send an HTTP request of the form: (http://) 
+
 	 localhost:8080/solr/update/csv?commit=true&stream.file=/home/bigdata/data/nsmLCF.csv
 
 where stream.file can be any valid URL/URI (in the case above it was a local file however a url could be at its place).
-
-
 If there is any problem on the csv (ie if it doesnt follow the schema) expect a lot of errors here!!!!
 
 
@@ -102,15 +101,16 @@ If there is any problem on the csv (ie if it doesnt follow the schema) expect a 
 ## 4. Query data in SOLR 
 
 
-an example R script that accesses SOLR is included above. Below the code shows a query that takes a string , replaces all punctuation and space chars with "+" and then gets 10000 records in csv format. 
+an example R script that accesses SOLR is included above. Below the code shows a query that takes a string , 
+replaces all punctuation and space chars with "+" and then gets 10000 records in csv format. 
 
 
-solrdf<- solr_search(q=paste0('CodeDesc:',str_replace_all(input$text,"([[:punct:]])|\\s+","+")), rows=10000,wt='csv' )
+	solrdf<- solr_search(q=paste0('CodeDesc:',str_replace_all(input$text,"([[:punct:]])|\\s+","+")), rows=10000,wt='csv' )
 
 
 there are a lot of options to be explored here .the manual at this point is pretty helpful about the standard query parser and other parsers available:
 
-https://cwiki.apache.org/confluence/display/solr/The+Standard+Query+Parser
+	https://cwiki.apache.org/confluence/display/solr/The+Standard+Query+Parser
 
 * add info about score
 
@@ -120,7 +120,7 @@ https://cwiki.apache.org/confluence/display/solr/The+Standard+Query+Parser
 QUERY via JSON with JSON request API
 
 
-http://yonik.com/solr-json-request-api/
+	http://yonik.com/solr-json-request-api/
 
 
 
@@ -208,7 +208,7 @@ Solr has now exposed these factors as function queries.
 	maxdoc() returns the number of documents in the index, including those that are marked as deleted but have not yet been purged.
 	numdocs() returns the number of documents in the index, not including those that are marked as deleted but have not yet been purged.
 
-
+-------------------------------------------------------------------------
 
 ## 7. SOLR Scoring exact matches higher than partial matches
 
@@ -221,12 +221,15 @@ PS. Need to apply these before importing any new files for setting correctly the
 
 
 
-## 8. New file with other types of fieldsimported. Steps
+-------------------------------------------------------------------------
+
+
+## 8. New file with other types of fields imported. Steps
 
 
 
 
-#### to delete index
+#### bash commands to delete index
 
 	   curl http://localhost:8080/solr/update -H "Content-type: text/xml" \
 	   --data-binary '<delete><query>*:*</query></delete>'
@@ -241,7 +244,7 @@ PS. Need to apply these before importing any new files for setting correctly the
 
 
 
-The schema.xml this time looks like this. 
+The current schema.xml looks like this. 
 
 
 	<fields>
