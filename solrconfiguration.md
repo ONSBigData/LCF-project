@@ -1,9 +1,9 @@
 
-SOLR server configuration 
+###SOLR server configuration 
 
-1.Install SOLR on a Ubuntu 14.04 LTS
+1. Install SOLR on a Ubuntu 14.04 LTS
 
-1.1 Install Java 8 or later
+1.1  Install Java 8 or later
 
     sudo add-apt-repository ppa:webupd8team/java	
     sudo apt-get update
@@ -19,7 +19,7 @@ SOLR server configuration
     export PATH	
     and then run:  source .bashrc	
 	
-1.2 install solr from apache mirror
+1.2  Install solr from apache mirror
 	
     cd ~	
     wget https://www.apache.org/dist/lucene/solr/6.3.0/solr-6.3.0.tgz	
@@ -32,7 +32,10 @@ SOLR server configuration
 everything should be working and solr should be on localhost:8983	
 
 
+</br>
 -------------------------------------------------------------------------
+</br>
+
 
 
 2.Configure SOLR
@@ -70,7 +73,12 @@ However there are plenty of types defined in the schema.xml file and they might 
 	</fields>
 	<uniqueKey>line</uniqueKey></schema>
 
+
+
+</br>
 -------------------------------------------------------------------------
+</br>
+
 
 
 3. Import data in SOLR by streaming CSV file with schema defined on schema.xml
@@ -85,7 +93,10 @@ where stream.file can be any valid URL/URI (in the case above it was a local fil
 If there is any problem on the csv (ie if it doesnt follow the schema) expect a lot of errors here!!!!
 
 
+</br>
 -------------------------------------------------------------------------
+</br>
+
 
 
 4. Query data in SOLR 
@@ -112,7 +123,11 @@ QUERY via JSON with JSON request API
 http://yonik.com/solr-json-request-api/
 
 
+</br>
 -------------------------------------------------------------------------
+</br>
+
+
 
 5. Example of query in SOLR via a REST web interface (or via a URL for non-techies!) 
 
@@ -174,9 +189,13 @@ or another example using JSON request and getting JSON reply:
 	}
 
 
+</br>
+-------------------------------------------------------------------------
+</br>
 
 
-7. SOLR relevancy function queries
+
+6. SOLR relevancy function queries
 
 
 Lucene’s default ranking function uses factors such as tf, idf, and norm to help calculate relevancy scores.
@@ -193,7 +212,7 @@ Solr has now exposed these factors as function queries.
 
 
 
-8. SOLR Scoring exact matches higher than partial matches
+7. SOLR Scoring exact matches higher than partial matches
 
 see here:
 
@@ -204,7 +223,7 @@ PS. Need to apply these before importing any new files for setting correctly the
 
 
 
-9. New file imported. Steps
+8. New file with other types of fieldsimported. Steps
 
 
 
