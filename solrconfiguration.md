@@ -208,6 +208,69 @@ Solr has now exposed these factors as function queries.
 	maxdoc() returns the number of documents in the index, including those that are marked as deleted but have not yet been purged.
 	numdocs() returns the number of documents in the index, not including those that are marked as deleted but have not yet been purged.
 
+
+### Fuzzy searching using SOLR and solrium (R)
+
+
+		solrdf<- solr_search(q='EXPDESC:dr+pepper', fl=c('score'),rows=100,wt='csv' )
+		#solrdf <- na.omit(solrdf)
+		#solrdf$mlQuantity <-  ifelse (solrdf$Units=="Litres",1000*solrdf$Quantity,solrdf$Quantity) 
+
+		formattable(solrdf)
+
+		#fuzzyness
+
+		# info  taken from https://wiki.apache.org/solr/SolrRelevancyFAQ
+
+
+		# a) use ~   (proximity or fuzzy)
+
+
+		#Fuzzy Searches
+
+		#Solr's standard query parser supports fuzzy searches based on the Damerau-Levenshtein Distance or Edit Distance algorithm. 
+		#Fuzzy searches discover terms that are similar to a specified term without necessarily being an exact match. 
+		#To perform a fuzzy search, use the tilde ~ symbol at the end of a single-word term. 
+		#For example, to search for a term similar in spelling to "roam," use the fuzzy search:
+		# roam~
+		#An optional distance parameter specifies the maximum number of edits allowed, between 0 and 2, defaulting to 2.  For example:
+		#roam~1
+		#This will match terms like roams & foam - but not foams since it has an edit distance of "2"
+
+
+		# Proximity Searches
+
+		# A proximity search looks for terms that are within a specific distance from one another.
+		# To perform a proximity search, add the tilde character ~ and a numeric value to the end of a search phrase. For example, 
+		# to search for a "apache" and "jakarta" within 10 words of each other in a document, use the search:
+		# "jakarta apache"~10
+		# The distance referred to here is the number of term movements needed to match the specified phrase. 
+		# In the example above, if "apache" and "jakarta" were 10 spaces apart in a field, 
+		# but "apache" appeared before "jakarta", more than 10 term movements would be required to move the terms together 
+		# and position "apache" to the right of "jakarta" with a space in between.
+
+
+
+
+		# b) The dismax handler can easily create sloppy phrase queries with the pf (phrase fields) and ps (phrase slop) parameters:
+
+		#  q=batman movie&pf=text&ps=100
+
+		# c) The dismax handler also allows users to explicitly specify a phrase query with double quotes, and the qs(query slop) parameter can be used to add slop to any explicit phrase queries:
+
+		#  q="batman movie"&qs=100
+
+
+		solrdf  <- solr_search(defType = "edismax" , q='EXPDESC:(dr "Rapper"^2)~3&mm=3&qs=100&ps=100', fl=c('score'),rows=1000,wt='csv' )
+
+		formattable(solrdf)
+
+
+
+
+
+
+
 -------------------------------------------------------------------------
 
 ## 7. SOLR Scoring exact matches higher than partial matches
