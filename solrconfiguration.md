@@ -129,7 +129,9 @@ QUERY via JSON with JSON request API
 
 
 
-## 5. Example of query in SOLR via a REST web interface (or via a URL for non-techies!) 
+## 5. Example of query in SOLR via a REST web interface 
+
+(REST means via a URL for non-techies!) 
 
 to sum up:
 We provide a query like this
