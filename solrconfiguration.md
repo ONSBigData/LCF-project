@@ -200,13 +200,17 @@ Lucene’s default ranking function uses factors such as tf, idf, and norm t
 
 Solr has now exposed these factors as function queries.
 
-#### docfreq(field,term) returns the number of documents that contain the term in the field.
-#### termfreq(field,term) returns the number of times the term appears in the field for that document.
-#### idf(field,term) returns the inverse document frequency for the given term, using the Similarityfor the field.
-#### tf(field,term) returns the term frequency factor for the given term, using the Similarity for the field.
-#### norm(field) returns the “norm” stored in the index, the product of the index time boost and then length normalization factor.
-#### maxdoc() returns the number of documents in the index, including those that are marked as deleted but have not yet been purged.
-#### numdocs() returns the number of documents in the index, not including those that are marked as deleted but have not yet been purged.
+*docfreq(field,term)* returns the number of documents that contain the term in the field.
+*termfreq(field,term)* returns the number of times the term appears in the field for that document.
+*idf(field,term)* returns the inverse document frequency for the given term, using the Similarityfor the field.
+*tf(field,term)* returns the term frequency factor for the given term, using the Similarity for the field.
+*norm(field)* returns the “norm” stored in the index, the product of the index time boost and then length normalization factor.
+*maxdoc()* returns the number of documents in the index, including those that are marked as deleted but have not yet been purged.
+*numdocs()* returns the number of documents in the index, not including those that are marked as deleted but have not yet been purged.
+
+
+
+-------------------------------------------------------------------------
 
 
 ## 7. Fuzzy searching using SOLR and solrium (R)
@@ -278,11 +282,14 @@ Solr has now exposed these factors as function queries.
 
 -------------------------------------------------------------------------
 
+
 ## 8. SOLR Scoring exact matches higher than partial matches
 
 see here:
 
+
 http://stackoverflow.com/questions/26365002/solr-scoring-exact-matches-higher-than-partial-matches
+
 
 
 PS. Need to apply these before importing any new files for setting correctly the solr.xml schema , STILL TODO.
@@ -292,10 +299,9 @@ PS. Need to apply these before importing any new files for setting correctly the
 -------------------------------------------------------------------------
 
 
-## 9. New file with other types of fields imported. Steps
+## 9. Current schema with other types of fields imported. 
 
-
-
+### Steps:
 
 #### bash commands to delete index
 
@@ -312,7 +318,7 @@ PS. Need to apply these before importing any new files for setting correctly the
 
 
 
-The current schema.xml looks like this. 
+#### The current schema.xml looks like this. 
 
 
 	<fields>
@@ -327,4 +333,6 @@ The current schema.xml looks like this.
 
 	</fields>
 
+#### stream the new csv with the current schema described above
 
+ 	localhost:8080/solr/update/csv?commit=true&stream.file=/home/bigdata/data/nsmLCF.csv
