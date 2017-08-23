@@ -14,7 +14,7 @@ the Social Survey Division, Surveys and Life Events Processing and the end user 
 The proposed solutions harness information from clean historic LCF diary data to help complete 
 missing product quantity information (i.e. amount, volume or weight purchased) at the point of data entry.   
      
-<br>
+
 ## strand A: Using historical data to create a lookup    
      
 https://github.com/ONSBigData/LCF-project/tree/master/LCF-analysis
