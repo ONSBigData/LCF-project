@@ -19,20 +19,20 @@ missing product quantity information (i.e. amount, volume or weight purchased) a
      
 https://github.com/ONSBigData/LCF-project/tree/master/LCF-analysis
 
-<br>
+
 ## strand B: Using a SOLR-based indexing solution
 
 
 https://github.com/ONSBigData/LCF-project/tree/master/LCF-shiny
 
-<br>
+
 ### LCF Scanning Receipt OCR shiny app prototype
 
 
 https://github.com/ONSBigData/LCF-project/tree/master/LCFshinyReceiptOCR
 
 
-<br>
+
 ## Contributors
 
 [Iva Spakulova](https://github.com/ivyONS)
@@ -43,7 +43,7 @@ https://github.com/ONSBigData/LCF-project/tree/master/LCFshinyReceiptOCR
 
 working for the [Office for National Statistics Big Data project](https://www.ons.gov.uk/aboutus/whatwedo/programmesandprojects/theonsbigdataproject)
 
-<br>
+
 ## LICENSE
 
 Released under the [GNU General Public License, version 3](LICENSE).
