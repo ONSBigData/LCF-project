@@ -14,24 +14,25 @@ the Social Survey Division, Surveys and Life Events Processing and the end user 
 The proposed solutions harness information from clean historic LCF diary data to help complete 
 missing product quantity information (i.e. amount, volume or weight purchased) at the point of data entry.   
      
-     
+<br>
 ## strand A: Using historical data to create a lookup    
      
-    
+https://github.com/ONSBigData/LCF-project/tree/master/LCF-analysis
 
-
+<br>
 ## strand B: Using a SOLR-based indexing solution
 
 
+https://github.com/ONSBigData/LCF-project/tree/master/LCF-shiny
+
+<br>
+### LCF Scanning Receipt OCR shiny app prototype
 
 
-## LCF Scanning Receipt OCR
+https://github.com/ONSBigData/LCF-project/tree/master/LCFshinyReceiptOCR
 
 
-
-
-
-
+<br>
 ## Contributors
 
 [Iva Spakulova](https://github.com/ivyONS)
@@ -42,7 +43,7 @@ missing product quantity information (i.e. amount, volume or weight purchased) a
 
 working for the [Office for National Statistics Big Data project](https://www.ons.gov.uk/aboutus/whatwedo/programmesandprojects/theonsbigdataproject)
 
-
+<br>
 ## LICENSE
 
 Released under the [GNU General Public License, version 3](LICENSE).
