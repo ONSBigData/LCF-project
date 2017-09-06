@@ -1,8 +1,18 @@
 # LCF-Project
 
+
+<br></br>
+
 Living Costs and Food Survey (LCF) Project repository
 
+<br></br>
+
+
 # Overview
+
+
+<br></br>
+
 
 The ONS Big Data team was approached by ONS Social Survey Division (SSD) about the possibility of using 
 commercial data and/or data science methods to help improve the processing of the 
@@ -23,7 +33,9 @@ missing product quantity information (i.e. amount, volume or weight purchased) a
 
 
 ## strand A: Using historical data to create a lookup    
-     
+
+<br></br>
+    
 https://github.com/ONSBigData/LCF-project/tree/master/LCF-analysis
 
 ![FlatFileApp](https://github.com/ONSBigData/LCF-project/blob/master/FlatFiles.png "")  
@@ -57,12 +69,12 @@ https://github.com/ONSBigData/LCF-project/tree/master/LCFshinyReceiptOCR
 ![OCRShinyApp](https://github.com/ONSBigData/LCF-project/blob/master/good.receipt.scan.png "")
 
 
-
 <br></br>
 
 
  ### additional code: prototype COICOP Classification using scikit learn jupyter notebook
 
+<br></br>
 
 https://github.com/ONSBigData/LCF-project/tree/master/LCF-COICOPclassification
 
