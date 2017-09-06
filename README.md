@@ -64,7 +64,7 @@ Each look-up file still contains a lot of items and therefore the items’ order
 When the look-up file opens in Blaise, the position of the cursor needs to be such that the next few products 
 are the most similar to what the coder is looking for.
 
-This has been achieved by a modified K-Nearest Neighbour classifcation algorithm.
+This has been achieved by a modified K-Nearest Neighbour classification algorithm.
 
 
 <br></br>
