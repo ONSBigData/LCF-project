@@ -60,12 +60,11 @@ The picture above shows a summary of the data processing pipeline for the flat-f
 The prepared lists get exported into a CSV file and handed over to the Blaise team,
 who convert them into a (proprietary) format suitable for loading from within the questionnaire. 
 
-Each look-up file 
-still contains a lot of items and therefore the items’ ordering is important. 
+Each look-up file still contains a lot of items and therefore the items’ ordering is important. 
 When the look-up file opens in Blaise, the position of the cursor needs to be such that the next few products 
 are the most similar to what the coder is looking for.
 
-
+This has been achieved by a modified K-Nearest Neighbour classifcation algorithm.
 
 
 <br></br>
