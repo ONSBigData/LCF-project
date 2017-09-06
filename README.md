@@ -8,7 +8,9 @@ The ONS Big Data team was approached by ONS Social Survey Division (SSD) about t
 commercial data and/or data science methods to help improve the processing of the 
 Living Costs and Food Survey (LCF).
 
+
 ![diaryprocess](https://github.com/ONSBigData/LCF-project/blob/master/LCFDiaryProcess.png "")  
+
      
 In order to facilitate the LCF diary process, two prototypes were developed by the Big Data Team in consultation with 
 the Social Survey Division, Surveys and Life Events Processing and the end user DEFRA. 
@@ -21,6 +23,10 @@ missing product quantity information (i.e. amount, volume or weight purchased) a
      
 https://github.com/ONSBigData/LCF-project/tree/master/LCF-analysis
 
+![FlatFileApp](https://github.com/ONSBigData/LCF-project/blob/master/FlatFiles.png "")  
+
+<br></br>
+
 
 ## strand B: Using a SOLR-based indexing solution
 
@@ -29,12 +35,21 @@ https://github.com/ONSBigData/LCF-project/tree/master/LCF-shiny
 
 ![SOLRShinyApp](https://github.com/ONSBigData/LCF-project/blob/master/LCF-2a.png "")  
 
+
+<br></br>
+
 #### additional code: LCF Scanning Receipt Optical Character Recognition shiny app prototype
+
 
 
 https://github.com/ONSBigData/LCF-project/tree/master/LCFshinyReceiptOCR
 
 ![OCRShinyApp](https://github.com/ONSBigData/LCF-project/blob/master/good.receipt.scan.png "")
+
+
+
+<br></br>
+
 
  #### additional code: prototype COICOP Classification using scikit learn jupyter notebook
 
