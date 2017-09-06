@@ -18,6 +18,7 @@ the Social Survey Division, Surveys and Life Events Processing and the end user 
 The proposed solutions harness information from clean historic LCF diary data to help complete 
 missing product quantity information (i.e. amount, volume or weight purchased) at the point of data entry.   
      
+     
 <br></br>
 
 
@@ -26,6 +27,7 @@ missing product quantity information (i.e. amount, volume or weight purchased) a
 https://github.com/ONSBigData/LCF-project/tree/master/LCF-analysis
 
 ![FlatFileApp](https://github.com/ONSBigData/LCF-project/blob/master/FlatFiles.png "")  
+
 
 <br></br>
 
@@ -43,7 +45,9 @@ https://github.com/ONSBigData/LCF-project/tree/master/LCF-shiny
 
 <br></br>
 
+
 ### additional code: LCF Scanning Receipt Optical Character Recognition shiny app prototype
+
 
 <br></br>
 
@@ -59,9 +63,18 @@ https://github.com/ONSBigData/LCF-project/tree/master/LCFshinyReceiptOCR
 
  ### additional code: prototype COICOP Classification using scikit learn jupyter notebook
 
-Three types of scikit learn classifiers (machine learning algorithms) trained to automatically assign a COICOP code 
-based on a product description 
 
+https://github.com/ONSBigData/LCF-project/tree/master/LCF-COICOPclassification
+
+
+A jupyter notebook containing 3 types of scikit learn classifiers (machine learning algorithms) trained to 
+automatically assign a COICOP code based on a product description.  
+
+- Naive Bayes
+- Support Vector Machines
+- Random Forests
+
+additionaly a jupyter notebook containing a Python implementation of the BM25 algorithm used in products such as Apache Lucene and SOLR
 
 <br></br>
 
