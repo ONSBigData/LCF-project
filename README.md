@@ -58,7 +58,7 @@ https://github.com/ONSBigData/LCF-project/tree/master/LCF-shiny
 <br></br>
 
 
-### additional code: LCF Scanning Receipt Optical Character Recognition shiny app prototype
+### - additional code: LCF Scanning Receipt Optical Character Recognition shiny app prototype
 
 
 <br></br>
