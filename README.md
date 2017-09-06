@@ -58,7 +58,7 @@ https://github.com/ONSBigData/LCF-project/tree/master/LCF-shiny
 <br></br>
 
 
-### - additional code: LCF Scanning Receipt Optical Character Recognition shiny app prototype
+### * additional code: LCF Scanning Receipt Optical Character Recognition shiny app prototype
 
 
 <br></br>
@@ -72,7 +72,7 @@ https://github.com/ONSBigData/LCF-project/tree/master/LCFshinyReceiptOCR
 <br></br>
 
 
- ### additional code: prototype COICOP Classification using scikit learn jupyter notebook
+### * additional code: prototype COICOP Classification using scikit learn jupyter notebook
 
 <br></br>
 
@@ -86,7 +86,7 @@ automatically assign a COICOP code based on a product description.
 - Support Vector Machines
 - Random Forests
 
-additionaly a jupyter notebook containing a Python implementation of the BM25 algorithm used in products such as Apache Lucene and SOLR
+Additionaly a jupyter notebook containing a Python implementation of the BM25 algorithm used in products such as Apache Lucene and SOLR
 
 <br></br>
 
