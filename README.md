@@ -8,7 +8,7 @@ The ONS Big Data team was approached by ONS Social Survey Division (SSD) about t
 commercial data and/or data science methods to help improve the processing of the 
 Living Costs and Food Survey (LCF).
 
-[logo] https://github.com/ONSBigData/LCF-project/blob/master/LCFDiaryProcess.png  
+![diaryprocess] https://github.com/ONSBigData/LCF-project/blob/master/LCFDiaryProcess.png  
      
 In order to facilitate the LCF diary process, two prototypes were developed by the Big Data Team in consultation with 
 the Social Survey Division, Surveys and Life Events Processing and the end user DEFRA. 
