@@ -12,6 +12,7 @@ Living Costs and Food Survey (LCF).
      
 In order to facilitate the LCF diary process, two prototypes were developed by the Big Data Team in consultation with 
 the Social Survey Division, Surveys and Life Events Processing and the end user DEFRA. 
+
 The proposed solutions harness information from clean historic LCF diary data to help complete 
 missing product quantity information (i.e. amount, volume or weight purchased) at the point of data entry.   
      
@@ -26,11 +27,18 @@ https://github.com/ONSBigData/LCF-project/tree/master/LCF-analysis
 
 https://github.com/ONSBigData/LCF-project/tree/master/LCF-shiny
 
+![SOLRShinyApp](https://github.com/ONSBigData/LCF-project/blob/master/LCF-2a.png "")  
 
 #### additional code: LCF Scanning Receipt Optical Character Recognition shiny app prototype
 
 
 https://github.com/ONSBigData/LCF-project/tree/master/LCFshinyReceiptOCR
+
+![OCRShinyApp](https://github.com/ONSBigData/LCF-project/blob/master/good.receipt.scan.png "")
+
+ #### additional code: prototype COICOP Classification using scikit learn jupyter notebook
+
+Three other types of classifiers (machine learning algorithms) trained to automatically assign a COICOP code based on a product description 
 
 
 
