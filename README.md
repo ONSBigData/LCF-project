@@ -73,15 +73,15 @@ This has been achieved by a modified K-Nearest Neighbour classification algorith
 ## strand B: Using a SOLR-based indexing solution
 
 
-<br></br>
-
+<br> </br>
+![BlaiseApp](https://github.com/ONSBigData/LCF-project/blob/master/BLAISEpic.png "")  
 
 https://github.com/ONSBigData/LCF-project/tree/master/LCF-shiny
 
 ![SOLRShinyApp](https://github.com/ONSBigData/LCF-project/blob/master/LCF-2a.png "")  
 
 
-<br></br>
+<br> </br>
 
 
 ### * additional code: LCF Scanning Receipt Optical Character Recognition shiny app prototype
