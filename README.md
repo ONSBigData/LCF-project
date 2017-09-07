@@ -100,7 +100,7 @@ A Shiny app was created to mimic the BLAISE system in appearance and functionali
 <br> </br>
 
 
-## * additional code: LCF Scanning Receipt Optical Character Recognition Shiny app prototype
+## addendum I: LCF Scanning Receipt Optical Character Recognition Shiny app prototype
 
 
 <br></br>
@@ -111,10 +111,14 @@ https://github.com/ONSBigData/LCF-project/tree/master/LCFshinyReceiptOCR
 ![OCRShinyApp](https://github.com/ONSBigData/LCF-project/blob/master/good.receipt.scan.png "")
 
 
+
+
+
+
 <br></br>
 
 
-## * additional code: prototype COICOP Classification using scikit learn jupyter notebook
+## addendum II:  prototype COICOP Classification using Scikit-Learn jupyter notebook
 
 <br></br>
 
