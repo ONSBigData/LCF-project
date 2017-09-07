@@ -73,10 +73,20 @@ This has been achieved by a modified K-Nearest Neighbour classification algorith
 ## strand B: Using a SOLR-based indexing solution
 
 
+https://github.com/ONSBigData/LCF-project/tree/master/LCF-shiny
+
 <br> </br>
+
+As it was mentioned above,entering LCF data from diaries into the Blaise takes a significant amount of time,
+and the most time consuming part is the amount (weight) information retrieval as it is often missing 
+in the diary / on the receipt.
+
 ![BlaiseApp](https://github.com/ONSBigData/LCF-project/blob/master/BLAISEpic.png "")  
 
-https://github.com/ONSBigData/LCF-project/tree/master/LCF-shiny
+SOLR is an open source, Lucene-based search engine library providing scalable enterprise indexing and search technology. 
+Initially records created from historical LCF data are indexed so that they could be retrieved quickly based on requested criteria. 
+By default, SOLR uses a modified TF-IDF method to calculate a similarity score between the query and all available historical LCF data
+
 
 ![SOLRShinyApp](https://github.com/ONSBigData/LCF-project/blob/master/LCF-2a.png "")  
 
