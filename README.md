@@ -83,10 +83,16 @@ in the diary / on the receipt.
 
 ![BlaiseApp](https://github.com/ONSBigData/LCF-project/blob/master/BLAISEpic.png "")  
 
+
+Another solution is proposed by using a SOLR based server in order to help with automatic COICOP classification and to 
+provide the most probable weight for items based on the item cost.
+
 SOLR is an open source, Lucene-based search engine library providing scalable enterprise indexing and search technology. 
 Initially records created from historical LCF data are indexed so that they could be retrieved quickly based on requested criteria. 
 By default, SOLR uses a modified TF-IDF method to calculate a similarity score between the query and all available historical LCF data
 
+
+A Shiny app was created to mimic the BLAISE system in appearance and functionality.
 
 ![SOLRShinyApp](https://github.com/ONSBigData/LCF-project/blob/master/LCF-2a.png "")  
 
@@ -94,7 +100,7 @@ By default, SOLR uses a modified TF-IDF method to calculate a similarity score b
 <br> </br>
 
 
-## * additional code: LCF Scanning Receipt Optical Character Recognition shiny app prototype
+## * additional code: LCF Scanning Receipt Optical Character Recognition Shiny app prototype
 
 
 <br></br>
