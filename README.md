@@ -100,6 +100,9 @@ A Shiny app was created to mimic the BLAISE system in appearance and functionali
 
 <br> </br>
 
+[Setup instructions for installing and configuring SOLR on Ubuntu](https://github.com/ONSBigData/LCF-project/blob/master/LCF-shiny/solrconfiguration.md)  
+
+<br> </br>
 
 ## addendum I: LCF Scanning Receipt Optical Character Recognition Shiny app prototype
 
@@ -113,7 +116,7 @@ https://github.com/ONSBigData/LCF-project/tree/master/LCFshinyReceiptOCR
 <h6> Figure 5. LCF Receipt Scanning minimal Shiny Application </h6>
 
 
-
+[Setup instructions for installing Ubuntu requirements for this app](https://github.com/ONSBigData/LCF-project/blob/master/LCFshinyReceiptOCR/LCFreceiptOCR.md)  
 
 
 <br></br>
