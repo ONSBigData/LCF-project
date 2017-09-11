@@ -20,7 +20,7 @@ Living Costs and Food Survey (LCF).
 
 
 ![diaryprocess](https://github.com/ONSBigData/LCF-project/blob/master/LCFDiaryProcess.png "")  
-<h4> Figure 1. LCF Diary process </h4>
+<h6> Figure 1. LCF Diary process </h6>
 
      
 In order to facilitate the LCF diary process, two prototypes were developed by the Big Data Team in consultation with 
@@ -55,7 +55,7 @@ or very similar items previously entered within the Blaise environment
 
 
 ![FlatFileApp](https://github.com/ONSBigData/LCF-project/blob/master/FlatFiles.png "")  
-<h4> Figure 2. LCF flat file solution process </h4>
+<h6> Figure 2. LCF flat file solution process </h6>
 
 The picture above shows a summary of the data processing pipeline for the flat-file prototype.
 The prepared lists get exported into a CSV file and handed over to the Blaise team,
@@ -83,7 +83,7 @@ and the most time consuming part is the amount (weight) information retrieval as
 in the diary / on the receipt.
 
 ![BlaiseApp](https://github.com/ONSBigData/LCF-project/blob/master/BLAISEpic.png "")  
-<h4> Figure 3. Screenshot of Blaise system </h4>
+<h6> Figure 3. Screenshot of Blaise system </h6>
 
 Another solution is proposed by using a SOLR based server in order to help with automatic COICOP classification and to 
 provide the most probable weight for items based on the item cost.
@@ -96,7 +96,7 @@ By default, SOLR uses a modified TF-IDF method to calculate a similarity score b
 A Shiny app was created to mimic the BLAISE system in appearance and functionality.
 
 ![SOLRShinyApp](https://github.com/ONSBigData/LCF-project/blob/master/LCF-2a.png "")  
-<h4> Figure 4.Shiny App simulating BLAISE interface using SOLR backend to predict COICOP and propose weights </h4>
+<h6> Figure 4.Shiny App simulating BLAISE interface using SOLR backend to predict COICOP and propose weights </h6>
 
 <br> </br>
 
@@ -110,7 +110,7 @@ A Shiny app was created to mimic the BLAISE system in appearance and functionali
 https://github.com/ONSBigData/LCF-project/tree/master/LCFshinyReceiptOCR
 
 ![OCRShinyApp](https://github.com/ONSBigData/LCF-project/blob/master/good.receipt.scan.png "")
-<h4> Figure 5. LCF Receipt Scanning minimal Shiny Application </h4>
+<h6> Figure 5. LCF Receipt Scanning minimal Shiny Application </h6>
 
 
 
