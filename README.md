@@ -104,6 +104,23 @@ A Shiny app was created to mimic the BLAISE system in appearance and functionali
 
 <br> </br>
 
+SOLR schema currently used for this project:
+
+          <fields>
+
+          <field name="line" type="string" indexed="true" stored="true" required="true"/>
+          <field name="coicop" type="integer" indexed="true" stored="true"/>
+          <field name="EXPDESC" type="text" indexed="true" stored="true"/>
+          <field name="Paid1" type="float" indexed="true" stored="true"/>
+          <field name="Shop" type="text" indexed="true" stored="true"/>
+          <field name="MAFFQuan" type="float" indexed="true" stored="true"/>
+          <field name="MAFFUnit" type="text" indexed="true" stored="true"/>
+
+          </fields>
+
+
+
+
 ## addendum I: LCF Scanning Receipt Optical Character Recognition Shiny app prototype
 
 
