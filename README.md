@@ -85,10 +85,10 @@ in the diary / on the receipt.
 ![BlaiseApp](https://github.com/ONSBigData/LCF-project/blob/master/BLAISEpic.png "")  
 <h6> Figure 3. Screenshot of Blaise system </h6>
 
-Another solution is proposed by using a SOLR based server in order to help with automatic COICOP classification and to 
+Another solution proposed by the Big Data team was a system that is using a [SOLR](http://lucene.apache.org/solr/) -based server in order to help with automatic COICOP classification and to 
 provide the most probable weight for items based on the item cost.
 
-SOLR is an open source, Lucene-based search engine library providing scalable enterprise indexing and search technology. 
+[SOLR](http://lucene.apache.org/solr/) is an open source, [Lucene](https://lucene.apache.org/core/) -based search engine library providing scalable enterprise indexing and search technology. 
 Initially records created from historical LCF data are indexed so that they could be retrieved quickly based on requested criteria. 
 By default, SOLR uses a modified TF-IDF method to calculate a similarity score between the query and all available historical LCF data
 
