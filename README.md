@@ -140,10 +140,12 @@ matched,parsed etc.
 ![OCRShinyApp](https://github.com/ONSBigData/LCF-project/blob/master/good.receipt.scan.png "")
 <h6> Figure 5. LCF Receipt Scanning minimal Shiny Application </h6>
 
+<br> </br>
 
 In order to install the Tesseract library the following [setup instructions](https://github.com/ONSBigData/LCF-project/blob/master/LCFshinyReceiptOCR/LCFreceiptOCR.md) 
 for installing all Ubuntu requirements for this app are provided together with a link to hints/tips/suggestions on how to 
 [improve the quality of performing OCR with Tesseract](https://github.com/tesseract-ocr/tesseract/wiki/ImproveQuality) .
+
 <br></br>
 
 
