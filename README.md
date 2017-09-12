@@ -171,4 +171,4 @@ working for the [Office for National Statistics Big Data project](https://www.on
 
 ## LICENSE
 
-Released under the [GNU General Public License, version 3](LICENSE).
+Released under the [MIT License](LICENSE).
