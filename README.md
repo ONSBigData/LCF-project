@@ -93,7 +93,8 @@ Initially records created from historical LCF data are indexed so that they coul
 By default, SOLR uses a modified TF-IDF method to calculate a similarity score between the query and all available historical LCF data
 
 
-A Shiny app was created to mimic the BLAISE system in appearance and functionality.
+A Shiny app was created to mimic the BLAISE system in appearance and functionality in order to show how this could work from
+within BLAISE
 
 ![SOLRShinyApp](https://github.com/ONSBigData/LCF-project/blob/master/LCF-2a.png "")  
 <h6> Figure 4.Shiny App simulating BLAISE interface using SOLR backend to predict COICOP and propose weights </h6>
