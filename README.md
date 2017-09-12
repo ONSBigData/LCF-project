@@ -130,13 +130,19 @@ SOLR schema currently used for this project:
 
 https://github.com/ONSBigData/LCF-project/tree/master/LCFshinyReceiptOCR
 
+
+
+A shiny app that can OCR a default receipt picture using the Tesseract OCR library or any other picture uploaded
+was created as a starting point for looking into getting information from receipts into a textual format so it can be processed,
+matched,parsed etc.
+
+
 ![OCRShinyApp](https://github.com/ONSBigData/LCF-project/blob/master/good.receipt.scan.png "")
 <h6> Figure 5. LCF Receipt Scanning minimal Shiny Application </h6>
 
 
-[Setup instructions for installing Ubuntu requirements for this app](https://github.com/ONSBigData/LCF-project/blob/master/LCFshinyReceiptOCR/LCFreceiptOCR.md)  
-
-
+In order to install the Tesseract library the following [setup instructions](https://github.com/ONSBigData/LCF-project/blob/master/LCFshinyReceiptOCR/LCFreceiptOCR.md) 
+for installing all Ubuntu requirements for this app are provided together with a [link](https://github.com/tesseract-ocr/tesseract/wiki/ImproveQuality) to hints/tips/suggestion on how to improve the quality of performing OCR with Tesseract 
 <br></br>
 
 
