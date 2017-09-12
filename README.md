@@ -142,7 +142,7 @@ matched,parsed etc.
 
 
 In order to install the Tesseract library the following [setup instructions](https://github.com/ONSBigData/LCF-project/blob/master/LCFshinyReceiptOCR/LCFreceiptOCR.md) 
-for installing all Ubuntu requirements for this app are provided together with a link to hints/tips/suggestion on how to 
+for installing all Ubuntu requirements for this app are provided together with a link to hints/tips/suggestions on how to 
 [improve the quality of performing OCR with Tesseract](https://github.com/tesseract-ocr/tesseract/wiki/ImproveQuality) .
 <br></br>
 
