@@ -8,6 +8,11 @@ Living Costs and Food Survey (LCF) Project repository
 <br></br>
 
 
+# Executive Summary
+
+
+For a short summary of the Living Costs and Food Survey (LCF) Project please see the following [document](https://github.com/ONSBigData/LCF-project/blob/master/LCF.Project.Summary-final.pdf)    .
+
 # Overview
 
 
